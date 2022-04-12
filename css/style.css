@@ -35,6 +35,16 @@ body{
     font-size: 20px;
     cursor: pointer;
 }
-.join a{
-    display: block;
+.reg-pass {
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    margin-top: 7px;
+    text-decoration: none;
+}
+.reg-pass a {
+    text-decoration: none;
+}
+.reg-pass :hover {
+    text-decoration: underline;
 }
