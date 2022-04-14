@@ -6,29 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/reset.css">
-    <title>authorization</title>
+    <title>Authorization</title>
 </head>
 <body>
-    <div class="auth_form_container">
-        <form action="" method="get">
-            <div class="userName_container">
-                <label for="userName">მომხმარებლის სახელი</label>
-                <input type="" name="userName" id="userName" placeholder="შეიყვანეთ მომხმარებლის სახელი">
-            </div>
-            <div class="password_container">
-                <label for="pass">პაროლი</label>
-                <input type="password" name="pass" id="pass">
-            </div>
-            <div class="join">
-                <input type="checkbox" name="saveUser" id="saveUser">
-                <label for="saveUser">დაიმახსოვრე</label>
-                <button>შესვლა</button>
-            </div> 
-            <div class="reg-pass">
-                <a href="/register.html">რეგისტრაცია</a>
-                <a href="/reset_password.html">პაროლის აღდგენა</a>
-            </div>
-        </form>
-    </div>
+    <header>
+        <div class="header_container">
+            <a href="#">
+                <img class="logo" src="/images/reddit-brands.svg" alt="image">
+            </a>
+            <nav class="menu_bar">
+                <div>
+                    <a href="#">მთავარი</a>
+                    <a href="#">დახმარება</a>
+                    <a href="#">ბლოგი</a>
+                    <a href="#">წესები</a>
+                    <a href="#">კონტაქტი</a>
+                </div>
+                <div>
+                    <a href="/register.html">რეგისტრაცია</a>
+                    <a href="/auth.html">ავტორიზაცია</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="auth_form_container">
+            <form action="" method="get">
+                <div class="userName_container">
+                    <label for="userName">მომხმარებლის სახელი</label>
+                    <input type="" name="userName" id="userName" placeholder="შეიყვანეთ მომხმარებლის სახელი">
+                </div>
+                <div class="password_container">
+                    <label for="pass">პაროლი</label>
+                    <input type="password" name="pass" id="pass">
+                </div>
+                <div class="join">
+                    <input type="checkbox" name="saveUser" id="saveUser">
+                    <label for="saveUser">დაიმახსოვრე</label>
+                    <button>შესვლა</button>
+                </div> 
+                <div class="reg-pass">
+                    <a href="/register.html">რეგისტრაცია</a>
+                    <a href="/reset_password.html">პაროლის აღდგენა</a>
+                </div>
+            </form>
+        </div>
+    </main>
 </body>
 </html>
