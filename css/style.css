@@ -29,6 +29,7 @@
     padding: 0 10px;
 }
 .main_container {
+    position: relative;
     width: 1200px;
     margin: auto;
 }
